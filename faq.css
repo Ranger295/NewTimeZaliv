@@ -1,0 +1,64 @@
+.FAQ__container{
+    width: 890px;
+    height: auto;
+    background-color: #282a36;
+    color: white;
+    justify-content: center;
+    font-family: "Anton", sans-serif;
+    padding-top: 20px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    z-index: 2;
+    position: relative;
+
+}
+.FAQ__tittle{
+    font-size: 25px;
+    width: 100% ;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: "Minecraft 1.1";
+}
+.FAQ__list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    list-style: none;
+    justify-content: center;
+    
+}
+.FAQ__list-item{
+    width: 330px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid gray ;
+    transition: 0.5s;
+    margin-bottom:50px ;
+    margin-right: 20px;
+}
+.FAQ__leftcontainer{
+    overflow: hidden;
+}
+.FAQ__leftcontainer-tittle{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.FAQ__rightcontainer{
+    display: flex;
+    justify-content: right;
+    align-items: top;
+}
+.FAQ__rightcontainer-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(image/cross.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}

@@ -1,0 +1,149 @@
+.slide_niz{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 890px;
+    padding: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 521px;
+}
+.slider_container{
+    width: 100%;
+    height: 521px;
+    background-color: #282a36;
+    border: 5px solid #3e414e;
+    position: absolute;
+    border-radius: 15px;
+}
+.drygoe_slide{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.drygoe_text{
+    font-family: "Minecraft 1.1";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    margin-top: 23px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: none;
+    text-align: center;
+
+}
+.drygoe_scobone{
+    font-family: "Minecraft 1.1";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 36px;
+    margin-top: 26px;
+    margin-left: 73px;
+    color: white;
+    text-shadow: none;
+    
+}
+.active1{
+    background: rgba(84, 84, 84, 0.44);
+    border: 3px solid #FFFFFF;
+    margin-top: 30px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+} 
+.drygoe_nav1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.drygoe_nav2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.drygoe_nav3{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.tablinks{
+    cursor: pointer;
+    color: white;
+    text-shadow: none;
+    text-decoration: none;
+}
+.drygoe_scobtwo{
+    font-family: "Minecraft 1.1";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 36px;
+    margin-top: 26px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    text-shadow: none;
+}
+.main-drugoe {
+    display: flex;
+}
+.drugoe-text2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 12px;
+    margin-top: 80px;
+    font-family: "Minecraft 1.1";
+    font-weight: bold;
+    color: white;
+    text-shadow: none;
+    text-align: center;
+}
+.main-drugoe img {
+    padding-top: 21px;
+    width: 271px;
+    height: 203px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.btn_slide, a.btn_slide {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: rgb(22, 190, 0);
+    border-radius: 0px;
+    height: 42px;
+    padding-right: 19px;
+    padding-left: 19px;
+    display: inline-block;
+    line-height: 32px;
+    border-top: 5px solid rgb(20, 158, 2);
+    border-bottom: 5px solid rgb(20, 158, 2);
+    transition: border-top 0.1s ease, border-bottom 0.1s ease, background-color 0.1s ease, color 0.1s ease;
+    margin-left: 10px;
+}
+.glav_slide{
+    z-index: 5;
+}

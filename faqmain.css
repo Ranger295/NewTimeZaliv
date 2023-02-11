@@ -1,0 +1,79 @@
+.faq__container{
+    width: 890px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 15px;
+    font-family: "Minecraft 1.1";
+}
+.question__container{
+    margin-bottom: 40px;
+}
+.question{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+.answer{
+
+    display: flex;
+    transition: 1s;
+    transition-property: all;
+}
+.mini__ava{
+    margin-top:5px ;
+    width: 20px;
+    height: 0px;
+    background-image: url(image/nt2.png);
+    background-position: center;
+    background-size: cover;
+    align-self: end;       
+    margin-right: 10px;
+}
+
+.hidden{
+    height: 0px;
+    overflow: hidden;
+    margin-left: 200px;
+}
+.question__ava{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(image/person.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+.answer__ava{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    background-image: url(image/nt2.png);
+    background-position: center;
+    background-size: cover;
+}
+.question__text{
+    padding-left: 20px;
+    height: auto;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(32, 173, 3);
+
+    display: flex;
+    align-items: center;
+    font-family: "Minecraft 1.1";
+}
+.answer__text{
+    padding-left: 20px;
+    height: auto;
+    width: 350px;    
+    align-items: center;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(32, 173, 3);
+    margin-right: 20px;
+    font-family: "Minecraft 1.1";
+}
