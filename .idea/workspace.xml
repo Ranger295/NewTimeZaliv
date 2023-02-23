@@ -1,11 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d2a2032-69af-4f71-91db-ad91379c1eab" name="Changes" comment="" />
+    <list default="true" id="5d2a2032-69af-4f71-91db-ad91379c1eab" name="Changes" comment="NewTime-Network Website, version 1.0.0">
+      <change afterPath="$PROJECT_DIR$/oauth2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/background.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faqmain.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/faqmain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/minecraft-1-1.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/minecraft-1-1.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/minecraft-1-1.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/minecraft-1-1.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/minecraft-1-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/minecraft-1-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/minecraft-1-1.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/minecraft-1-1.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/minecraft-1-1.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/minecraft-1-1.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/minecraft-1-1.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/minecraft-1-1.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/minecraft.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/minecraft.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/D00b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/D00b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/antropov.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/antropov.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/armor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/armor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/armor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/armor.webp" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/armor.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/beer.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/beer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/book.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/cross.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cross1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/cross1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/discord_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/discord_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/discordone.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/discordone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/dsone.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/dsone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/firefill.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/firefill.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/fourrrrr.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/fourrrrr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/free.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/free.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/g13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/g13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/genesis.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/genesis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/mapsto.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/mapsto.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/micro.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/micro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/minecraft-frog-minecraft.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/minecraft-frog-minecraft.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/new.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/next.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/nt2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/nt2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/person.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/pidorasi.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/pidorasi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/portal.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/portal.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/potion.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/potion.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/pref.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/pref.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/resurse.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/resurse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/rp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/rp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sceentri.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/sceentri.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/screen1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/screen1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/screenfour.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/screenfour.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/screentwo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/screentwo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/villager-transformed.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/villager-transformed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/vkone.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/vkone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/vktwo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/vktwo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meh.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/meh.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meh.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/meh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meh.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/meh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/rules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider_niz.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/slider_niz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibor.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vibor.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -16,13 +100,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/NewTimeZaliv"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/NewTimeZaliv&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\NewTimeZaliv\static\image" />
+      <recent name="C:\Users\User\PycharmProjects\NewTimeZaliv\static\fonts" />
+      <recent name="C:\Users\User\PycharmProjects\NewTimeZaliv\templates" />
+      <recent name="C:\Users\User\PycharmProjects\NewTimeZaliv\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.oauth2">
+    <configuration name="oauth2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NewTimeZaliv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oauth2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NewTimeZaliv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.oauth2" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,6 +176,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676046304663</updated>
     </task>
+    <task id="LOCAL-00001" summary="NewTime-Network Website, version 1.0.0">
+      <created>1676109081493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676109081493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -44,5 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NewTime-Network Website, version 1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="NewTime-Network Website, version 1.0.0" />
   </component>
 </project>

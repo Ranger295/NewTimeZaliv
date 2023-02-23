@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приватный майнкрафт сервер — NewTime</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/vibor.css">
+    <link rel="stylesheet" href="static/background.css">
+    <link rel="stylesheet" href="static/slider-section.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/preloader.css">
+    <link rel="stylesheet" href="static/faq.css">
+    <link rel="stylesheet" href="static/slider.css">
+    <link rel="stylesheet" href="static/info.css">
+    <link rel="stylesheet" href="static/footer.css">
+    <link rel="stylesheet" href="static/rules.css">
+    <link rel="stylesheet" href="static/faqmain.css">
+    <link rel="stylesheet" href="static/meh.css">
+</head>
+<body>
+<header>
+    <div class="head">
+        <img class="headerimg"
+             src="https://media.discordapp.net/attachments/1066852564596957294/1067538495930896424/NewTime_2.png"
+             alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/649/649686.png" alt="" class="headerpalka">
+        <h1> сервер возможностей!</h1>
+    </div>
+    <nav>
+        <a href="http://{{ host }}">Главная</a>
+        <a href="http://{{ host }}/meh">Механики сервера</a>
+        <a href="http://{{ host }}/cities">RP-Города</a>
+        <a href="http://{{ host }}/faq">FAQ</a>
+        <a href="http://{{ host }}/rules">Правила</a>
+        <a href={{ account }}>{{ name }}</a>
+        <img class="avatar-image" src={{ avatar }}>
+    </nav>
+    <a href="" class="logo" target="_blank">
+        <img src="static/image/nt2.png" alt="">
+    </a>
+</header>
+
+<div id="windowblack"></div>
+<div class="meh__container">
+    <h1 class="meh__tittle">Механики Сервера</h1>
+    <h2 class="meh__subtittle">Нажмите на картинку, чтобы прочитать! </h2>
+    <div class="meh__portal">
+        <div class="meh__kniga" id="mehbook"></div>
+        <div class="meh__potion" id="mehpotion"></div>
+        <div class="meh__armor" id="meharmor"></div>
+        <div class="meh__micro" id="mehmicro"></div>
+        <div class="meh__sword" id="mehsword"></div>
+
+    </div>
+
+</div>
+<div class="meh__info" id="mehinfo">
+    <h1 class="meh__info__tittle"></h1>
+    <p class="meh__info__text"></p>
+</div>
+
+
+<div class="footer-basic">
+    <footer>
+        <div class="social">
+            <a href="#"><img class="img_footer" src="static/image/vktwo.png" alt=""></a>
+            <a href="#"><img class="img_footer" src="static/image/discordone.png" alt=""></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Главная</a></li>
+            <li class="list-inline-item"><a href="#">Механики сервера</a></li>
+            <li class="list-inline-item"><a href="#">RP-города</a></li>
+            <li class="list-inline-item"><a href="#">FAQ</a></li>
+            <li class="list-inline-item"><a href="#">Правила</a></li>
+        </ul>
+        <p class="copyright">NewTime © 2023</p>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="static/script.js"></script>
+<script src="static/faq.js"></script>
+<script src="static/meh.js"></script>
+</body>
+</html>

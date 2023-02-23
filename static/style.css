@@ -69,9 +69,9 @@ cursor: pointer;
 }
 header h1 {
   font-size: 22px;
+  text-transform: uppercase;
   color: #fff;
   line-height: 230px;
-  text-transform: uppercase;
   font-weight: 100;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -79,6 +79,7 @@ header h1 {
   transition: all 0.3s ease;
 }
 header nav {
+  font-family: "Minecraft 1.1";
   position: absolute;
   bottom: 0;
   height: 60px;
@@ -88,6 +89,10 @@ header nav {
   margin: auto;
 }
 header nav a {
+  font-family: "Minecraft 1.1";
+  font-size: 16px;
+  position: absolute
+  top: 40px; left: 40px;
   color: #fff;
   display: inline-block;
   padding: 10px 15px;
@@ -96,6 +101,7 @@ header nav a {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  margin: 2px 1px 2px;
 }
 .head{
   display: flex;
@@ -239,7 +245,7 @@ header{
   font-size: 27px;
   line-height: 45px;
   color: #FFFFFF;
-      font-family: "Minecraft 1.1";
+  font-family: "Minecraft 1.1";
   font-weight: bold;
 }
 .spawn_img{
@@ -310,4 +316,37 @@ header{
   overflow: hidden;
   box-shadow: 0 8px 30px 0 rgba(0,0,0,0.3);
   background-color: #353746;
+}
+
+
+.avatar-image {
+    position: absolute;
+    top: 4px;
+    width: 52px;
+    height: 52px;
+    z-index: 9;
+    border-radius: 16px;  /* Скругление углов изображения
+    /* border: 2px solid #fff; /* Цвет и ширину рамки */
+    /* box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
+    margin: 0;
+    padding: 0;
+}
+.server-status {
+    font-family: "Minecraft 1.1";
+	background: #2a2b34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    font-size: 16px;
+    text-align: center;
+    width: 850px;
+    height: 45px;
+    z-index: 9;
+    border: 1px solid #2a2b34;
+    box-shadow: 0px 0px 3px #fff;
+    border-radius: 20px;
 }
