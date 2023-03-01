@@ -1,11 +1,14 @@
 import os
-from flask import Flask, g, session, redirect, request, url_for, jsonify, render_template
+from flask import Flask, session, redirect, request, render_template
 from requests_oauthlib import OAuth2Session
 from mcstatus import JavaServer
 import threading
 from time import sleep
 
-mc_server_online = 0
+server = JavaServer.lookup("65.109.88.93:25573")
+status = server.status()
+mc_server_online = status.players.online
+
 host = '127.0.0.1:5000'
 
 NECESSARY_GUILD_ID = '928641318962475070'
@@ -24,13 +27,18 @@ app.config['SECRET_KEY'] = OAUTH2_CLIENT_SECRET
 if 'http://' in OAUTH2_REDIRECT_URI:
     os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = 'true'
 
+
 def server_status():
     global mc_server_online
     while True:
         server = JavaServer.lookup("65.109.88.93:25573")
         status = server.status()
         mc_server_online = status.players.online
+        print(status.players.sample)
         # print("Players online:", ", ".join([player.name for player in status.players.sample]))
+        # query = server.query()
+        # print(query.players.online)
+        # print(f"The server has the following players online: {', '.join(query.players.names)}")
         sleep(60)
 thread = threading.Timer(1, server_status)
 thread.start()

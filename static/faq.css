@@ -1,12 +1,13 @@
 .FAQ__container{
-    width: 890px;
+    width: 100%;
     height: auto;
     background-color: #282a36;
     color: white;
     justify-content: center;
     font-family: "Anton", sans-serif;
     padding-top: 20px;
-    border-radius: 30px;
+    border-radius: 16px;
+    padding: 15px;
     margin: auto;
     margin-top: 50px;
     z-index: 2;

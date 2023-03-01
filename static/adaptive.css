@@ -1,0 +1,169 @@
+.meh__container__two{
+    position: absolute;
+    bottom: 10000px;
+}
+@media (min-width:320px ) and (max-width: 890px) {
+    .meh__container__two{
+        position: relative;
+        bottom: 0;
+    }
+    .meh__container{
+        position: absolute;
+        bottom: 10000px;
+        width: 1px;
+        height: 1px;
+    }
+    .meh__portal{
+        width: 1px;
+    }
+    .meh__portal div{
+        width: 1px;
+        left: -19999px;
+    }
+    .headerimg {
+        max-width: 134px;
+        height: auto;
+    }
+    header h1{
+        font-size: 7px;
+    }
+    header nav a{
+        padding: 20px 3px;
+    }
+    .avatar-image{
+        width: 25px;
+        height: 25px;
+    }
+    .server-status {
+      max-width: 320px;
+      font-size: 8px;
+    }
+    .container{
+        max-width: 320px;
+    }
+    .parent {
+      max-width: 320px;
+      max-height: 200px;
+    }
+    .info {
+      max-width: 320px;
+    }
+    .dbl-border img {
+    max-width: 60px;
+    }
+    .slide_niz {
+        max-width: 320px;
+    }
+    .FAQ__container {
+        max-width: 320px;
+    }
+    .spawn{
+        max-width: 320px;
+    }
+    .fix_left{
+        font-size: 40px;
+    }
+    header nav a {
+        font-size: 6px;
+    }
+    .logo{
+        left: -500px;
+    }
+    header{
+        height: 220px;
+    }
+    body {
+        padding-top: 257px;
+    }
+    .container .btn {
+        margin: 8px;
+        width: 252px;
+        height: 28px;
+        font-size: 8px;
+    }
+    .vk , .dis , .ip{
+        max-width: 20px;
+    }
+    .why{
+        font-size: 36px;
+    }
+    .slider{
+        max-width: 100%;
+    }
+    .slide1, .slide2, .slide3, .slide4 {
+        max-width: 320px;
+
+    }
+    .hone_slide {
+        font-size: 13px;
+    }
+    .img_slide{
+        max-width: 58px;
+        height: auto;
+    }
+    .htri_slide {
+        font-size: 8px;
+        max-width: 182px;
+    }
+    .dbl-border:before {
+        top: -5px;
+        left: -5px;
+    }
+    .dbl-border:after {
+        top: -5px;
+        left: -5px;
+    }
+    .dbl-border{
+        margin: 20px 20px;
+    }
+    .dbl-border img {
+        max-width: 101px;
+        height: auto;
+        margin: 0;
+    }
+    .fix_left {
+        font-size: 40px;
+    }
+    .left_magaz {
+        width: 66%;
+        height: 100%;
+        text-align: center;
+    }
+    .left_magaz h1{
+        font-size: 12px;
+    }
+    .magaz_niz{
+        font-size: 63%;
+        margin-top: -10px;
+    }
+    .img_sponsor {
+        position: absolute;
+        top: -23px;
+        left: 44%;
+    }
+    .sponsor{
+        padding: 10px;
+        max-height: 257px;
+    }
+    .info button{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .spawn_img{
+        left: -700px;
+    }
+    .spawn_gotov{
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .slide_niz{
+        position: absolute;
+        bottom: 5000px;
+    }
+    #ipclicklol{
+        left: -1000px;
+    }
+    .main-drugoe img {
+    width: 1px;
+    }
+  }

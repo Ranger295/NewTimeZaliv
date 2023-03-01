@@ -87,11 +87,15 @@ header nav {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
   margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
 }
 header nav a {
   font-family: "Minecraft 1.1";
   font-size: 16px;
-  position: absolute
   top: 40px; left: 40px;
   color: #fff;
   display: inline-block;
@@ -320,7 +324,6 @@ header{
 
 
 .avatar-image {
-    position: absolute;
     top: 4px;
     width: 52px;
     height: 52px;
@@ -328,7 +331,7 @@ header{
     border-radius: 16px;  /* Скругление углов изображения
     /* border: 2px solid #fff; /* Цвет и ширину рамки */
     /* box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
-    margin: 0;
+    margin: 4px 4px;
     padding: 0;
 }
 .server-status {
